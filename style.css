@@ -22,6 +22,10 @@ html {
     color: gray;
 }
 
+.white {
+    color: white;
+}
+
 /* burger menu */
 /* скрываем чекбокс */
 #menu__toggle {
@@ -32,7 +36,7 @@ html {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center;  /* центрируем содержимое кнопки */
     position: fixed;
-    top: 20px;
+    top:20px;
     left: 20px;
     width: 26px;
     height: 26px;
@@ -169,4 +173,117 @@ html {
 
 .dashboard-icon {
     font-size: 20px;
+}
+
+/* main content */
+
+.main-content {
+    margin-left: 20vw;
+    position: static;
+    width: 80vw;
+    /* background-color: #eaeaea; */
+    overflow: hidden;
+}
+
+.main-content-title {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+/* type cards */
+
+.first-type-card {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 15px;
+  background-color: #f6f6f6;
+  box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 58%);
+  border: 1px solid black;
+}
+
+.first-type-card-row1 {
+    width: 90%;
+    height: 80px;
+    background-color: #c32055;
+    margin-top: -30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid gray;
+  outline: 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.first-type-card-row2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-type-card-row3 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-type-card-row3 input {
+  width: 300px;
+}
+
+.first-type-card-row4 {
+  width: 90%;
+  
+}
+
+.first-type-card-row5 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-type-card-row6 {
+  width: 90%;
+}
+
+.first-type-card-row7 {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.uptade-btn {
+  width: 180px;
+  height: 40px;
+  background-color: #c32055;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: .5s;
+}
+
+.uptade-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.uptade-btn:hover {
+  filter: brightness(170%);
 }
