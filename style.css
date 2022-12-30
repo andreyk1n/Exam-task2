@@ -287,3 +287,38 @@ input {
 .uptade-btn:hover {
   filter: brightness(170%);
 }
+
+.second-type-card {
+  border: 1px solid black;
+  width: 35vw;
+  box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 58%);
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.second-type-card-row1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.second-type-card-row1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.second-type-card-row2, .second-type-card-row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.second-type-card-row4 {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
