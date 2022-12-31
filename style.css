@@ -413,6 +413,41 @@ body {
   .hamburger-menu {
     display: none;
   }
+
+  .first-type-card-row2 input {
+    width: 90%;
+  }
+
+  .first-type-card-row3 input {
+    width: 90%;
+  }
+
+  .first-type-card-row5 input {
+    width: 90%;
+  }
+
+  .first-type-card {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: rgb(0 0 0 / 58%) 5px 5px 5px 0px;
+  }
+
+  .second-type-card {
+    background-color: white;
+    width: 30vw;
+    height: 250px;
+    box-shadow: rgb(0 0 0 / 58%) 5px 5px 5px 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 40px;
+  }
 }
 
 @media (min-width:800px) and (max-width:1000px) {
@@ -557,6 +592,18 @@ body {
     align-items: center;
     gap: 20px;
     background-color: #eaeaea;
+  }
+
+  .first-type-card-row2 input {
+    width: 90%;
+  }
+
+  .first-type-card-row3 input {
+    width: 90%;
+  }
+
+  .first-type-card-row5 input {
+    width: 90%;
   }
 }
 
